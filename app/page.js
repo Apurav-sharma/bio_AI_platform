@@ -193,7 +193,7 @@ const AegisCancerPrediction = () => {
                 type="text"
                 value={apiUrl}
                 onChange={(e) => setApiUrl(e.target.value)}
-                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                className="w-full text-black px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
                 placeholder="http://localhost:8000"
               />
             </div>
@@ -237,7 +237,7 @@ const AegisCancerPrediction = () => {
                         step="0.1"
                         min="0"
                         max="15"
-                        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                        className="w-full text-black px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
                         title={fieldDescriptions[field]}
                       />
                       <p className="text-xs text-gray-500 mt-1">{fieldDescriptions[field]}</p>
@@ -262,7 +262,7 @@ const AegisCancerPrediction = () => {
                       onChange={handleInputChange}
                       min="18"
                       max="120"
-                      className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                      className="w-full text-black px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
                     />
                   </div>
                   <div>
@@ -275,7 +275,7 @@ const AegisCancerPrediction = () => {
                       step="0.1"
                       min="12"
                       max="50"
-                      className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                      className="w-full text-black px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
                     />
                   </div>
                   <div>
@@ -284,7 +284,7 @@ const AegisCancerPrediction = () => {
                       name="smoking_history"
                       value={formData.smoking_history}
                       onChange={handleInputChange}
-                      className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                      className="w-full text-black px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
                     >
                       <option value="">Select</option>
                       <option value="0">No</option>
@@ -297,7 +297,7 @@ const AegisCancerPrediction = () => {
                       name="family_history"
                       value={formData.family_history}
                       onChange={handleInputChange}
-                      className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                      className="w-full text-black px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
                     >
                       <option value="">Select</option>
                       <option value="0">No</option>
@@ -310,7 +310,7 @@ const AegisCancerPrediction = () => {
                       name="previous_cancer_history"
                       value={formData.previous_cancer_history}
                       onChange={handleInputChange}
-                      className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                      className="w-full text-black px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
                     >
                       <option value="">Select</option>
                       <option value="0">No</option>
@@ -327,7 +327,7 @@ const AegisCancerPrediction = () => {
                       step="0.1"
                       min="0"
                       max="20"
-                      className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                      className="w-full text-black px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
                     />
                   </div>
                 </div>
