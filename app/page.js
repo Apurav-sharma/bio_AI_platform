@@ -20,7 +20,7 @@ const AegisCancerPrediction = () => {
   const [prediction, setPrediction] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
-  const [apiUrl, setApiUrl] = useState('http://localhost:8000');
+  const [apiUrl, setApiUrl] = useState('https://bio-ai-platform-2.onrender.com');
 
   const fieldDescriptions = {
     TP53: "Tumor suppressor gene expression level (0-15)",
