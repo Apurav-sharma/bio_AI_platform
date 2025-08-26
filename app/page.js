@@ -194,7 +194,7 @@ const AegisCancerPrediction = () => {
                 value={apiUrl}
                 onChange={(e) => setApiUrl(e.target.value)}
                 className="w-full text-black px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
-                placeholder="http://localhost:8000"
+                placeholder="https://bio-ai-platform-2.onrender.com"
               />
             </div>
 
